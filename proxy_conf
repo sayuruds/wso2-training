@@ -1,0 +1,6 @@
+server {
+ listen 80;
+ location / {
+        proxy_pass http://lt-2021-098.ml:8081;
+ }
+}
